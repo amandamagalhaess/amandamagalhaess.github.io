@@ -1,10 +1,15 @@
 body{
     background-color: #8e9aaf;
+    margin: 30px 60px;
 }
 
 h1{
     font-family: 'Quicksand', sans-serif;;
     text-align: center;
+    margin-top: 60px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    color: #FEEAFA;
 }
 
 .sobre-mim p{ 
@@ -34,19 +39,36 @@ h1{
 img{
     border-radius: 10%;
     float: left;
-}
-
-.sobre-mim{
-    background-color: #EFD3D7;
-    width: 500px;
-    margin-left: 250px;
-    margin-top: 45px;
-    padding: 5px 20px;
-    border-radius: 30px;
+    margin-left: 200px;
+    width: 300px;
 }
 
 .habilidades{
-    margin-top: 100px;
-    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.habilidades, .sobre-mim{
+    margin-left: 600px;
+    background-color: #EFD3D7;
+    width: 500px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    text-align: center;
+    color: #8E9AAF;
+}
+
+ul{
+    list-style: none;
+}
+
+.navegação a{
+    padding-right: 30px;
+}
+
+.navegação{
+    background-color: #CBC0D3;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
 }
 
