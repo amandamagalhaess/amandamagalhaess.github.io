@@ -4,9 +4,10 @@ body{
 
 h1{
     font-family: 'Quicksand', sans-serif;;
+    text-align: center;
 }
 
-.sobre-mim{
+.sobre-mim p{ 
     font-style:italic;
 }
 
@@ -28,5 +29,24 @@ h1{
 .trab-equipe{
     font-size: 17px;
     padding-bottom: 10px;
+}
+
+img{
+    border-radius: 10%;
+    float: left;
+}
+
+.sobre-mim{
+    background-color: #EFD3D7;
+    width: 500px;
+    margin-left: 250px;
+    margin-top: 45px;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.habilidades{
+    margin-top: 100px;
+    margin-left: 40px;
 }
 
